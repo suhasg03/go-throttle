@@ -1,4 +1,4 @@
-# Go rate limiter [![GoDoc][doc-img]][doc]
+# Go rate limiter
 
 This package provides a Golang implementation of the leaky-bucket, sliding window and fixed window rate limit algorithm.
 Create GoThrottle object by passing your redis client and rate limit strategy and call Allow() by passing the key and the limit and the window size.
